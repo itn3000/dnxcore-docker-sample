@@ -1,0 +1,625 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: libuv
+Source: <url://example.com>
+
+#----------------------------------------------------------------------------
+Copyright: 1987-1994 The Regents of the University of California.
+Files: ./samples/socks5-proxy/getopt.c
+# licensecheck(1): ./samples/socks5-proxy/getopt.c: BSD (3 clause)
+License:
+  Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ 3. Neither the name of the University nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+#----------------------------------------------------------------------------
+Copyright: 2006-2008 Alexander Chemeris
+Files: ./include/stdint-msvc2008.h
+# licensecheck(1): ./include/stdint-msvc2008.h: BSD (2 clause)
+License:
+  Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ 1. Redistributions of source code must retain the above copyright notice,
+ this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ 3. The name of the author may be used to endorse or promote products
+ derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
+ WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+ EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+ OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ /////////////////////////////////////////////////////////////////////////////
+
+#----------------------------------------------------------------------------
+Copyright: 2007-289016 Emergya (Cloud4all, FP7/grant agreement n° )
+ 2013 Kenneth MacKay
+Files: ./src/unix/android-ifaddrs.c
+# licensecheck(1): ./src/unix/android-ifaddrs.c: BSD (2 clause)
+License:
+  Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+ * Redistributions of source code must retain the above copyright notice, this
+ list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+ this list of conditions and the following disclaimer in the documentation
+ and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+#----------------------------------------------------------------------------
+Copyright: 2002 Niels Provos <provos@citi.umich.edu>
+Files: ./include/tree.h
+# licensecheck(1): ./include/tree.h: BSD (2 clause)
+License:
+  Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+#----------------------------------------------------------------------------
+Copyright: Fedor Indutny.
+ 2015 Saúl Ibarra Corretgé <saghul@gmail.com>.
+ StrongLoop, Inc.
+ Joyent, Inc. and other Node contributors.
+ Bert Belder, and other libuv contributors.
+Files: ./src/threadpool.c
+	./src/uv-common.h
+	./src/uv-common.c
+	./src/version.c
+	./src/fs-poll.c
+	./src/unix/darwin-proctitle.c
+	./src/unix/linux-core.c
+	./src/unix/stream.c
+	./src/unix/openbsd.c
+	./src/unix/netbsd.c
+	./src/unix/fsevents.c
+	./src/unix/getnameinfo.c
+	./src/unix/pipe.c
+	./src/unix/timer.c
+	./src/unix/core.c
+	./src/unix/poll.c
+	./src/unix/proctitle.c
+	./src/unix/loop.c
+	./src/unix/process.c
+	./src/unix/loop-watcher.c
+	./src/unix/async.c
+	./src/unix/getaddrinfo.c
+	./src/unix/linux-syscalls.h
+	./src/unix/freebsd.c
+	./src/unix/linux-syscalls.c
+	./src/unix/linux-inotify.c
+	./src/unix/kqueue.c
+	./src/unix/internal.h
+	./src/unix/fs.c
+	./src/unix/dl.c
+	./src/unix/signal.c
+	./src/unix/aix.c
+	./src/unix/darwin.c
+	./src/unix/tcp.c
+	./src/unix/tty.c
+	./src/unix/thread.c
+	./src/unix/sunos.c
+	./src/unix/udp.c
+	./src/win/atomicops-inl.h
+	./src/win/winapi.c
+	./src/win/stream.c
+	./src/win/req.c
+	./src/win/getnameinfo.c
+	./src/win/winsock.c
+	./src/win/pipe.c
+	./src/win/timer.c
+	./src/win/core.c
+	./src/win/poll.c
+	./src/win/process.c
+	./src/win/loop-watcher.c
+	./src/win/handle-inl.h
+	./src/win/fs-event.c
+	./src/win/winsock.h
+	./src/win/async.c
+	./src/win/getaddrinfo.c
+	./src/win/handle.c
+	./src/win/internal.h
+	./src/win/fs.c
+	./src/win/dl.c
+	./src/win/signal.c
+	./src/win/tcp.c
+	./src/win/util.c
+	./src/win/tty.c
+	./src/win/thread.c
+	./src/win/stream-inl.h
+	./src/win/process-stdio.c
+	./src/win/udp.c
+	./src/win/error.c
+	./src/win/req-inl.h
+	./samples/.gitignore
+	./samples/socks5-proxy/build.gyp
+	./samples/socks5-proxy/s5.h
+	./samples/socks5-proxy/.gitignore
+	./samples/socks5-proxy/server.c
+	./samples/socks5-proxy/client.c
+	./samples/socks5-proxy/defs.h
+	./samples/socks5-proxy/main.c
+	./samples/socks5-proxy/s5.c
+	./samples/socks5-proxy/util.c
+	./samples/socks5-proxy/Makefile
+	./include/uv-aix.h
+	./include/uv-darwin.h
+	./include/uv-bsd.h
+	./include/uv-sunos.h
+	./include/uv-unix.h
+	./include/uv.h
+	./include/uv-errno.h
+	./include/uv-win.h
+	./include/uv-linux.h
+	./include/uv-threadpool.h
+	./include/uv-version.h
+	./test/test-udp-multicast-join.c
+	./test/test-tcp-write-after-connect.c
+	./test/test-idle.c
+	./test/test-udp-multicast-join6.c
+	./test/test-ipc-send-recv.c
+	./test/blackhole-server.c
+	./test/benchmark-async-pummel.c
+	./test/test-pipe-getsockname.c
+	./test/benchmark-spawn.c
+	./test/test-hrtime.c
+	./test/runner.h
+	./test/runner.c
+	./test/test-udp-options.c
+	./test/runner-unix.h
+	./test/test-tcp-writealot.c
+	./test/test-pipe-close-stdout-read-stdin.c
+	./test/test-cwd-and-chdir.c
+	./test/test-condvar.c
+	./test/test-shutdown-eof.c
+	./test/test-tcp-try-write.c
+	./test/run-tests.c
+	./test/benchmark-loop-count.c
+	./test/test-timer.c
+	./test/test-udp-dgram-too-big.c
+	./test/test-run-once.c
+	./test/test-tcp-connect-error-after-write.c
+	./test/runner-win.h
+	./test/test-poll-close-doesnt-corrupt-stack.c
+	./test/benchmark-ping-pongs.c
+	./test/test-udp-send-and-recv.c
+	./test/test-get-loadavg.c
+	./test/runner-win.c
+	./test/test-emfile.c
+	./test/test-pipe-sendmsg.c
+	./test/test-getnameinfo.c
+	./test/test-signal.c
+	./test/benchmark-async.c
+	./test/benchmark-million-timers.c
+	./test/test-fs.c
+	./test/test-udp-send-unreachable.c
+	./test/test-udp-bind.c
+	./test/test-udp-multicast-ttl.c
+	./test/test-delayed-accept.c
+	./test/test-tcp-connect-error.c
+	./test/benchmark-pump.c
+	./test/benchmark-getaddrinfo.c
+	./test/test-ping-pong.c
+	./test/test-watcher-cross-stop.c
+	./test/test-ip6-addr.c
+	./test/test-ipc.c
+	./test/test-udp-open.c
+	./test/test-fs-event.c
+	./test/test-pass-always.c
+	./test/test-getsockname.c
+	./test/test-process-title.c
+	./test/test-threadpool.c
+	./test/test-default-loop-close.c
+	./test/test-callback-stack.c
+	./test/benchmark-udp-pummel.c
+	./test/test-close-order.c
+	./test/test-pipe-connect-error.c
+	./test/test-close-fd.c
+	./test/benchmark-fs-stat.c
+	./test/test-udp-ipv6.c
+	./test/test-threadpool-cancel.c
+	./test/test-platform-output.c
+	./test/test-tcp-read-stop.c
+	./test/test-tcp-write-to-half-open-connection.c
+	./test/test-loop-close.c
+	./test/test-walk-handles.c
+	./test/test-get-memory.c
+	./test/test-pipe-connect-multiple.c
+	./test/test-udp-send-immediate.c
+	./test/test-udp-multicast-interface6.c
+	./test/test-handle-fileno.c
+	./test/test-fs-poll.c
+	./test/test-signal-multiple-loops.c
+	./test/test-tcp-bind-error.c
+	./test/benchmark-million-async.c
+	./test/test-tcp-flags.c
+	./test/test-async.c
+	./test/test-tcp-write-queue-order.c
+	./test/test-connection-fail.c
+	./test/test-ip4-addr.c
+	./test/echo-server.c
+	./test/run-benchmarks.c
+	./test/test-stdio-over-pipes.c
+	./test/test-get-currentexe.c
+	./test/test-thread.c
+	./test/test-poll-closesocket.c
+	./test/test-ref.c
+	./test/test-loop-handles.c
+	./test/test-tcp-shutdown-after-write.c
+	./test/test-pipe-server-close.c
+	./test/test-getaddrinfo.c
+	./test/test-tcp-bind6-error.c
+	./test/test-timer-again.c
+	./test/test-multiple-listen.c
+	./test/test-loop-stop.c
+	./test/benchmark-tcp-write-batch.c
+	./test/test-tcp-connect-timeout.c
+	./test/test-tcp-close-accept.c
+	./test/test-udp-create-socket-early.c
+	./test/test-shutdown-twice.c
+	./test/test-embed.c
+	./test/test-udp-multicast-interface.c
+	./test/test-tcp-open.c
+	./test/test-dlerror.c
+	./test/test-loop-alive.c
+	./test/benchmark-multi-accept.c
+	./test/test-active.c
+	./test/test-list.h
+	./test/test-poll.c
+	./test/test-fail-always.c
+	./test/test-socket-buffer-size.c
+	./test/test-tcp-write-fail.c
+	./test/test-loop-time.c
+	./test/test-tcp-close-while-connecting.c
+	./test/test-poll-close.c
+	./test/benchmark-thread.c
+	./test/test-mutexes.c
+	./test/benchmark-pound.c
+	./test/test-pipe-connect-prepare.c
+	./test/test-barrier.c
+	./test/test-run-nowait.c
+	./test/test-pipe-pending-instances.c
+	./test/task.h
+	./test/test-tcp-unexpected-read.c
+	./test/test-osx-select.c
+	./test/test-pipe-bind-error.c
+	./test/test-tcp-connect6-error.c
+	./test/test-udp-try-send.c
+	./test/test-tcp-close.c
+	./test/benchmark-list.h
+	./test/test-callback-order.c
+	./test/test-shutdown-close.c
+	./test/test-thread-equal.c
+	./test/test-timer-from-check.c
+	./test/test-tcp-oob.c
+	./test/test-spawn.c
+	./test/test-tcp-create-socket-early.c
+	./test/test-tty.c
+	./test/benchmark-sizes.c
+	./test/dns-server.c
+	./test/test-error.c
+	./test/runner-unix.c
+	./test/test-async-null-cb.c
+	./test/test-semaphore.c
+# licensecheck(1): ./src/threadpool.c: MIT/X11 (BSD like)
+License:
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to
+ deal in the Software without restriction, including without limitation the
+ rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+ sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+ IN THE SOFTWARE.
+
+#............................................................................
+# Gray hits with matching text of "copyright":
+# !!! manual check needed ./samples/socks5-proxy/s5.c: 85, 
+#	switch (c) {, case 0:
+# !!! manual check needed ./samples/socks5-proxy/s5.c: 157, 
+#	switch (c) {
+# !!! manual check needed ./samples/socks5-proxy/s5.c: 177, 
+#	switch (c) {
+# !!! manual check needed ./test/test-spawn.c: 1670, 
+#	while (c) {, do {
+#----------------------------------------------------------------------------
+Copyright: 1995-1999 Berkeley Software Design, Inc.
+Files: ./include/android-ifaddrs.h
+# licensecheck(1): ./include/android-ifaddrs.h: BSD (2 clause)
+License:
+  Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ .
+ THIS SOFTWARE IS PROVIDED BY Berkeley Software Design, Inc. ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL Berkeley Software Design, Inc. BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+ .
+ BSDI ifaddrs.h,v 2.5 2000/02/23 14:51:59 dab Exp
+
+#----------------------------------------------------------------------------
+Copyright: 2013-2015 Ben Noordhuis <info@bnoordhuis.nl>
+Files: ./configure.ac
+	./Makefile.am
+	./Makefile.mingw
+	./autogen.sh
+	./checksparse.sh
+	./src/heap-inl.h
+	./src/queue.h
+	./src/unix/atomic-ops.h
+	./src/unix/spinlock.h
+	./test/test-loop-configure.c
+	./test/test-pipe-set-non-blocking.c
+# licensecheck(1): ./configure.ac: ISC
+License:
+  Permission to use, copy, modify, and/or distribute this software for any
+ purpose with or without fee is hereby granted, provided that the above
+ copyright notice and this permission notice appear in all copies.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+#----------------------------------------------------------------------------
+Copyright: 2004 by Internet Systems Consortium, Inc. ("ISC")
+ 1996-1999 by Internet Software Consortium.
+Files: ./src/inet.c
+# licensecheck(1): ./src/inet.c: ISC
+License:
+  Permission to use, copy, modify, and distribute this software for any
+ purpose with or without fee is hereby granted, provided that the above
+ copyright notice and this permission notice appear in all copies.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS" AND ISC DISCLAIMS ALL WARRANTIES
+ WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS.  IN NO EVENT SHALL ISC BE LIABLE FOR
+ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT
+ OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+#----------------------------------------------------------------------------
+Copyright: 2013 Dariusz Dwornikowski.
+Files: ./docs/src/sphinx-plugins/manpage.py
+# licensecheck(1): ./docs/src/sphinx-plugins/manpage.py: UNKNOWN
+License:
+  Adapted from https://github.com/tdi/sphinxcontrib-manpage
+ License: Apache 2
+
+#----------------------------------------------------------------------------
+Copyright: 2012 Google Inc.
+ 2013 Sony Mobile Communications AB
+ 2006-2008 xine project
+ 2006-2008 Diego PettenÃ <flameeyes gmail com>
+Files: ./src/unix/pthread-fixes.c
+	./m4/libuv-check-flags.m4
+	./include/pthread-fixes.h
+# licensecheck(1): ./src/unix/pthread-fixes.c: BSD (3 clause)
+License: NO_LICENSE_TEXT_FOUND
+
+#............................................................................
+# Gray hits with matching text of "copyright":
+# NO_LICENSE_TEXT_FOUND   ./m4/libuv-check-flags.m4: 35, 
+#	dnl As a special exception, the copyright owners of the, dnl macro gives unlimited permission to copy, distribute and modify the, dnl configure scripts that are the output of Autoconf when processing the, dnl Macro. You need not follow the terms of the GNU General Public, dnl License when using or distributing such scripts, even though portions, dnl of the text of the Macro appear in them. The GNU General Public, dnl License (GPL) does govern all other use of the material that, dnl constitutes the Autoconf Macro., dnl, dnl This special exception to the GPL applies to versions of the, dnl Autoconf Macro released by this project. When you make and, dnl distribute a modified version of the Autoconf Macro, you may extend, dnl this special exception to the GPL to apply to your modified version as, dnl well.
+#----------------------------------------------------------------------------
+Copyright: NO_COPYRIGHT_INFO_FOUND
+Files: ./CONTRIBUTING.md
+	./MAINTAINERS.md
+	./.gitignore
+	./uv.gyp
+	./gyp_uv.py
+	./android-configure
+	./libuv.nsi
+	./vcbuild.bat
+	./.mailmap
+	./AUTHORS
+	./README.md
+	./libuv.pc.in
+	./appveyor.yml
+	./common.gypi
+	./m4/.gitignore
+	./m4/as_case.m4
+	./img/logos.svg
+	./debian/control
+	./docs/make.bat
+	./docs/Makefile
+	./docs/src/index.rst
+	./docs/src/fs_event.rst
+	./docs/src/dll.rst
+	./docs/src/process.rst
+	./docs/src/tcp.rst
+	./docs/src/fs_poll.rst
+	./docs/src/stream.rst
+	./docs/src/pipe.rst
+	./docs/src/handle.rst
+	./docs/src/design.rst
+	./docs/src/dns.rst
+	./docs/src/signal.rst
+	./docs/src/tty.rst
+	./docs/src/request.rst
+	./docs/src/threadpool.rst
+	./docs/src/loop.rst
+	./docs/src/prepare.rst
+	./docs/src/migration_010_100.rst
+	./docs/src/timer.rst
+	./docs/src/check.rst
+	./docs/src/conf.py
+	./docs/src/errors.rst
+	./docs/src/async.rst
+	./docs/src/threading.rst
+	./docs/src/version.rst
+	./docs/src/misc.rst
+	./docs/src/poll.rst
+	./docs/src/udp.rst
+	./docs/src/idle.rst
+	./docs/src/fs.rst
+	./docs/src/static/diagrams.key/Metadata/BuildVersionHistory.plist
+	./docs/src/static/diagrams.key/Metadata/DocumentIdentifier
+	./test/test-homedir.c
+	./test/fixtures/load_error.node
+	./test/fixtures/empty_file
+# licensecheck(1): ./CONTRIBUTING.md: *No copyright* UNKNOWN
+License: NO_LICENSE_TEXT_FOUND
+
+#----------------------------------------------------------------------------
+# Binary files (skipped):
+# ./img/banner.png
+# ./docs/src/static/favicon.ico
+# ./docs/src/static/logo.png
+# ./docs/src/static/loop_iteration.png
+# ./docs/src/static/diagrams.key/preview-web.jpg
+# ./docs/src/static/diagrams.key/preview-micro.jpg
+# ./docs/src/static/diagrams.key/Index.zip
+# ./docs/src/static/diagrams.key/Data/st1-475.jpg
+# ./docs/src/static/diagrams.key/Data/st0-311.jpg
+# ./docs/src/static/diagrams.key/Metadata/Properties.plist
+
+#----------------------------------------------------------------------------
+# Huge files   (skipped):
+# ./src/win/winapi.h
+# ./docs/src/static/architecture.png
+# ./docs/src/static/diagrams.key/preview.jpg
+
+#----------------------------------------------------------------------------
+# This is meant only as a template example.
+#
+# Edit this accordinng to the "Machine-readable debian/copyright file" as
+# http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/ .
+#
+# Generate typical license templates with the "debmake -c" to STDOUT
+# and merge them into here as needed.  See "man 8 debmake" for more.
+#
+# licensecheck(1) from the devscripts package is used here to determin
+# the name of the license that applies.
+#
+# Please avoid to pick license terms that are more restrictive than the
+# packaged work, as it may make Debian's contributions unacceptable upstream.
+
+#----------------------------------------------------------------------------
+# License: LICENSE
+ libuv is part of the Node project: http://nodejs.org/
+ libuv may be distributed alone under Node's license:
+ .
+ ====
+ .
+ Copyright Joyent, Inc. and other Node contributors. All rights reserved.
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to
+ deal in the Software without restriction, including without limitation the
+ rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+ sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+ IN THE SOFTWARE.
+ .
+ ====
+ .
+ This license applies to all parts of libuv that are not externally
+ maintained libraries.
+ .
+ The externally maintained libraries used by libuv are:
+ .
+   - tree.h (from FreeBSD), copyright Niels Provos. Two clause BSD license.
+ .
+   - inet_pton and inet_ntop implementations, contained in src/inet.c, are
+     copyright the Internet Systems Consortium, Inc., and licensed under the ISC
+     license.
+ .
+   - stdint-msvc2008.h (from msinttypes), copyright Alexander Chemeris. Three
+     clause BSD license.
+ .
+   - pthread-fixes.h, pthread-fixes.c, copyright Google Inc. and Sony Mobile
+     Communications AB. Three clause BSD license.
+ .
+   - android-ifaddrs.h, android-ifaddrs.c, copyright Berkeley Software Design
+     Inc, Kenneth MacKay and Emergya (Cloud4all, FP7/2007-2013, grant agreement
+     n° 289016). Three clause BSD license.
+

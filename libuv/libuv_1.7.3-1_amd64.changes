@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 11 Sep 2015 10:35:31 +0900
+Source: libuv
+Binary: libuv
+Architecture: source amd64
+Version: 1.7.3-1
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: itn3000 <itn3000@gmail.com>
+Changed-By: ito <ito@localhost>
+Description:
+ libuv      - Cross-platform asynchronous I/O library
+Changes:
+ libuv (1.7.3-1) UNRELEASED; urgency=low
+ .
+   * Initial release. Closes: #nnnn
+     <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ c5f0b305d66d2b087382cd4698e3cc4a944f5f7f 931 libuv_1.7.3-1.dsc
+ 246e69cadd94333c6ebc41b42a9eeb7c606ea793 1058371 libuv_1.7.3.orig.tar.gz
+ f5692c23f8b704451bc655a31f8633231194021c 7348 libuv_1.7.3-1.debian.tar.xz
+ 778984049f2077472688acb923993f2aefa97241 101900 libuv_1.7.3-1_amd64.deb
+Checksums-Sha256:
+ 77b7d40de1cb434a1f6b385760fcffdf8e56b69c48efe1915451df10725594a5 931 libuv_1.7.3-1.dsc
+ 057c575f0e318cde83bdb38a69d1c84874f90abfafacb42a5c59f762fafe8f94 1058371 libuv_1.7.3.orig.tar.gz
+ 9ea7fa3fdcad47b3cb3794e34c1cfeac780449b7ca14fe005b4793070149af41 7348 libuv_1.7.3-1.debian.tar.xz
+ 6ce33ef551e7cf11850fe383e5841ba55bb2599f8654e85aa3c7975939b825f2 101900 libuv_1.7.3-1_amd64.deb
+Files:
+ 58e6c918035cda240488b292289b09ae 931 misc extra libuv_1.7.3-1.dsc
+ 2e788f399db984c79f10162b4b4158a6 1058371 misc extra libuv_1.7.3.orig.tar.gz
+ 93947060c4f84d2de765b37baf21dd1f 7348 misc extra libuv_1.7.3-1.debian.tar.xz
+ 5397038a8ccb321534675f1857a7d15a 101900 misc extra libuv_1.7.3-1_amd64.deb

@@ -1,0 +1,6 @@
+libuv (1.7.3-1) UNRELEASED; urgency=low
+
+  * Initial release. Closes: #nnnn
+    <nnnn is the bug number of your ITP>
+
+ -- ito <ito@localhost>  Fri, 11 Sep 2015 10:35:31 +0900

@@ -1,0 +1,18 @@
+Source: libuv
+Section: misc
+Priority: extra
+Maintainer: itn3000 <itn3000@gmail.com>
+Build-Depends: dh-autoreconf,
+	debhelper (>=9)
+Standards-Version: 3.9.5
+Homepage: https://github.com/libuv/libuv/
+Vcs-Git: git://anonscm.debian.org/collab-maint/libuv.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/libuv.git
+
+Package: libuv
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}
+Description: Cross-platform asynchronous I/O library
+
